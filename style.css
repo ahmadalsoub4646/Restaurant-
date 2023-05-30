@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+  
+ 
+    
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, darkslategray, rgb(75, 128, 128),rgb(230, 225, 225));
+    color: white;
+    padding: 20px;
+    min-height: 20vh;
+  }
+
+  header h1{
+    padding: 10px;
+    position: fixed;
+    left: 30px;
+  }
+  
+  header nav {
+    position: fixed;
+    right: 20px;
+    margin-top: 30px;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  header h1:hover{
+    border: solid;
+    border: 2px;
+    border-radius: 20px;
+    background-color:rgb(57, 95, 95);
+    color:white;
+  }
+  
+  header nav a:hover {
+    border: solid;
+    border: 2px;
+    border-radius: 10px;
+    background-color:rgb(42, 70, 70);
+    color:white;
+  }
+  
+  
+  
+ 
+  main {
+    background: linear-gradient(to top, darkslategray,rgb(230, 225, 225));
+    display: flex;
+    justify-content: space-around;
+    
+    min-height:65vh;
+  }
+  
+  main table {
+    border-color: rgb(93, 160, 160);
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    margin-top: 40px;
+  }
+  main table tr th {
+    border-color: rgb(99, 172, 172);
+    border: 1px solid ;
+    padding: 15px;
+  }
+  main table  th:hover{
+    background-color: rgb(113, 199, 199);
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form label,
+  form select,
+  form select option{
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+  }
+   form #submit:hover{
+    background-color: rgb(85, 153, 153);
+   }
+  
+  
+  
+  
+  footer {
+    background-color:darkslategray;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 10vh;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+  }
+  
+  footer div a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  footer div a:hover {
+    border: solid;
+    border: 2px;
+    border-radius: 10px;
+    background-color:rgb(42, 70, 70);
+    color:white;
+  }
+
+
+  
